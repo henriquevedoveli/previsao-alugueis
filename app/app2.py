@@ -34,7 +34,7 @@ def app():
 
     st.write('### Matriz de Confussão para os dados')
 
-    st.image('/img/matrizconfussao.png')
+    st.image('./img/matrizconfussao.png')
 
     st.write('''O modelo escolhido foi o que obteve melhor acurácia, no caso foi o regressor Lasso, após o treinamento do 
                 modelo foi realizado a validação do modelo, onde foi realizado um gráfico do Valor Real x Valor Previsto, além
@@ -42,7 +42,7 @@ def app():
 
     st.write('### Gráfico de Validação do Modelo')
 
-    st.image('/img/realxprevisto.png')
+    st.image('./img/realxprevisto.png')
 
     st.write('''
     Dados Utilizados: [Brazilian Hoises to Rent](https://www.kaggle.com/rubenssjr/brasilian-houses-to-rent)
