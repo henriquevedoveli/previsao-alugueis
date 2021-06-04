@@ -45,7 +45,7 @@ def app():
     st.image('./img/realxprevisto.png')
 
     st.write('''
-    Dados Utilizados: [Brazilian Hoises to Rent](https://www.kaggle.com/rubenssjr/brasilian-houses-to-rent)
+    Dados Utilizados: [Brazilian Houses to Rent](https://www.kaggle.com/rubenssjr/brasilian-houses-to-rent)
     
     Notebook de Treinamento : [https://github.com/henriquevedoveli/previsao-alugueis/blob/master/houses_to_rent.ipynb](https://github.com/henriquevedoveli/previsao-alugueis/blob/master/houses_to_rent.ipynb)
     ''')
